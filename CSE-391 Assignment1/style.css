@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+body {
+	background-image: linear-gradient(to bottom,cyan,rgba(0,250,150,0.8))
+}
+.nav_links{
+	display: flex;
+	font-family: 'Josefin Sans', sans-serif; 
+	font-size: 30px;
+	font-weight: bold;
+	margin: auto;
+	justify-content: space-around;
+	padding: 30px;
+}
+.sklh:hover{
+	transition: all 1s;
+	transform: scale(1.1);
+}
+.prjh:hover{
+	transition: all 1s;
+	transform: scale(1.1);
+}
+.abth:hover{
+	transition: all 1s;
+	transform: scale(1.025);
+}
+.ctah:hover{
+	transition: all 1s;
+	transform: scale(1.025);
+}
+li, a{
+	text-decoration: none;
+	font-size: 35px;
+}
+li{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding: 10px;
+}
+h1,h2,h3, p, li, a{
+	font-family: 'Josefin Sans', sans-serif;
+	padding: 30px;
+}
+h1{
+	font-size: 85px;
+}
+h2{
+	font-size: 50px;
+}
+h3{
+	font-size: 45px;
+}
+p{
+	font-size: 40px;
+}
+q{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 40px;
+}
+strong{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 25px;
+}
+label{
+	display: inline-block;
+	width: 240px;
+	text-align: right;
+}
+.lnk{
+	text-decoration: none;
+}
+.lnklst{
+	display: flex;
+	flex-direction: row;
+}
+
+.type{
+	font-size: 60px
+}
+#fm, #prj{
+	font-family: 'Josefin Sans', sans-serif;
+}
+.heading{
+	text-align: center;
+}
+.subm, .rst, .lm{
+	font-family: 'Josefin Sans', sans-serif;
+}
+#prj,#skl,#abt{
+	text-align: center;
+}
+.centered{
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
+	border-radius: 100%;
+	transition: all 1s;
+}
+.centered:hover{
+	transform: scale(1.025);
+}
+footer{
+	text-align: center;
+}
+
+th, td {
+	border: 1px solid black;
+  	padding: 15px;
+  	text-align: center;
+}
+.type2{
+	display: flex;
+	font-size: 40px;
+	justify-content: center;
+	align-items: flex-end;
+}
